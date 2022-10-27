@@ -1,0 +1,29 @@
+{
+    "titulo": "Our Kills",
+    "habilidades": [
+        {
+            "titulo": "WEB DESIGNS",
+            "descripcion": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et eaque ratione rem porro, nihil."
+        },
+        {
+            "titulo": "WEB DEVELOPMENT",
+            "descripcion": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et eaque ratione rem porro, nihil."
+        },
+        {
+            "titulo": "RESPONSIVE DESIGNS",
+            "descripcion": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et eaque ratione rem porro, nihil."
+        },
+        {
+            "titulo": "EDIT SECTIONS",
+            "descripcion": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et eaque ratione rem porro, nihil."
+        },
+        {
+            "titulo": "DATABASES",
+            "descripcion": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et eaque ratione rem porro, nihil."
+        },
+        {
+            "titulo": "ANDROID",
+            "descripcion": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et eaque ratione rem porro, nihil."
+        }
+    ]
+}

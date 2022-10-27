@@ -1,0 +1,23 @@
+addEventListener("DOMContentLoaded", async(e)=>{
+    let peticion = await fetch("https://comfenalcocursos.000webhostapp.com/Actividad_maquetacion_web_2_21_10_2022/api.php");
+    let data = await peticion.json();
+    document.querySelector(".section-title").innerHTML = data.titulo;
+    document.querySelector(".service-box:nth-child(1) .service-title").innerHTML = data.habilidades[0].titulo;
+    document.querySelector(".service-box:nth-child(1) .service-desc").innerHTML = data.habilidades[0].descripcion;
+    document.querySelector(".service-box:nth-child(1) .servidor").innerHTML = data.servidor;
+    document.querySelector(".service-box:nth-child(2) .service-title").innerHTML = data.habilidades[1].titulo;
+    document.querySelector(".service-box:nth-child(2) .service-desc").innerHTML = data.habilidades[1].descripcion;
+    document.querySelector(".service-box:nth-child(2) .servidor").innerHTML = data.servidor;
+    document.querySelector(".service-box:nth-child(3) .service-title").innerHTML = data.habilidades[2].titulo;
+    document.querySelector(".service-box:nth-child(3) .service-desc").innerHTML = data.habilidades[2].descripcion;
+    document.querySelector(".service-box:nth-child(3) .servidor").innerHTML = data.servidor;
+    document.querySelector(".service-box:nth-child(4) .service-title").innerHTML = data.habilidades[3].titulo;
+    document.querySelector(".service-box:nth-child(4) .service-desc").innerHTML = data.habilidades[3].descripcion;
+    document.querySelector(".service-box:nth-child(4) .servidor").innerHTML = data.servidor;
+    document.querySelector(".service-box:nth-child(5) .service-title").innerHTML = data.habilidades[4].titulo;
+    document.querySelector(".service-box:nth-child(5) .service-desc").innerHTML = data.habilidades[4].descripcion;
+    document.querySelector(".service-box:nth-child(5) .servidor").innerHTML = data.servidor;
+    document.querySelector(".service-box:nth-child(6) .service-title").innerHTML = data.habilidades[5].titulo;
+    document.querySelector(".service-box:nth-child(6) .service-desc").innerHTML = data.habilidades[5].descripcion;
+    document.querySelector(".service-box:nth-child(6) .servidor").innerHTML = data.servidor;
+})
